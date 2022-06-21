@@ -61,6 +61,7 @@ let ave = sum/this.length;
 
  
   }
+}
 
 module.exports = SortedList;
 
