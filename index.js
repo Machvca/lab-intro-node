@@ -41,18 +41,27 @@ return Math.min(...this.items);
   }
 
   sum() {
+    let sum = 0;
+    for (let i = 0; i < this.items.length; i++) {
+        sum += this.items[i];
+      }
 
+return sum;
 
-// let sum = 0;
-
-// for (let i = 0; i < .length; i++) {
-//     sum += array[i];
-
-//   }
   }
-  avg() {}
-
+  avg() {
+let sum = 0;
+for (let i = 0; i < this.items.length; i++) {
+  sum += this.items[i];
 }
+
+let ave = sum/this.length;
+ return ave;
+
+
+ 
+  }
+
 module.exports = SortedList;
 
 
